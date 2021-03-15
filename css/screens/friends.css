@@ -1,0 +1,45 @@
+.friends-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
+  background-color: #f7f7f7f8;
+}
+
+.friends-display:hover {
+  cursor: pointer;
+}
+
+.friends-display .fa-chevron-right {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.friends-display .fa-info-circle {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+
+.friends-display__text {
+  margin: 0 13px 0 6px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.channel-bar {
+  margin: 0 20px;
+  padding: 10px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.channel-bar__column {
+  width: 50%;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.channel-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}

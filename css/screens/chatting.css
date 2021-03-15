@@ -1,0 +1,112 @@
+#chatting-background-color {
+  background-color: #abc1d1;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 100px;
+  margin-bottom: 5px;
+}
+.date__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgba(233, 233, 233, 0.925);
+  font-size: 13px;
+  border-radius: 15px;
+  width: 190px;
+  height: 30px;
+}
+
+.chattings {
+  margin: 0 15px;
+}
+
+.chattings__others {
+  display: flex;
+}
+
+.chattings__others--img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  margin-right: 10px;
+}
+
+.chattings__others--text--name {
+  font-size: 15px;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chattings__others--text--sayntime {
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+}
+
+.chattings__others--text--say {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: 17px;
+  width: 230px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+.trangle-others {
+  color: white;
+  position: absolute;
+  left: -3px;
+  top: -3px;
+}
+
+.chattings__others--text--time {
+  margin-left: 8px;
+  display: flex;
+  align-items: flex-end;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chattings__me {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chattings__me--text {
+  display: flex;
+  position: relative;
+}
+
+.trangle-me {
+  color: #fee500;
+  position: absolute;
+  right: -5px;
+  top: 0px;
+}
+
+.chattings__me--text--time {
+  margin-right: 8px;
+  display: flex;
+  align-items: flex-end;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chattings__me--text--say {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fee500;
+  font-size: 17px;
+  width: 90px;
+  height: 40px;
+  border-radius: 15px;
+}

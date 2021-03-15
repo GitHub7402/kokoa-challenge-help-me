@@ -1,0 +1,92 @@
+.keyboard {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 383px;
+}
+
+.keyboard__sending-bar {
+  background-color: white;
+  height: 58px;
+  display: flex;
+  align-items: center;
+}
+
+.keyboard__sending-bar--square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  width: 25px;
+  height: 25px;
+  border-radius: 30%;
+  position: relative;
+  margin-right: 20px;
+}
+
+.keyboard__sending-bar--square span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -6px;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.keyboard__sending-space {
+  display: flex;
+  background-color: #f8f8f8;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 395px;
+  height: 45px;
+  border-radius: 30px;
+}
+
+.keyboard__sending-space--text {
+  font-size: 18px;
+  margin-left: 13px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+}
+
+.keyboard__sending-space--icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: 9px;
+  font-size: 30px;
+}
+
+.arrow-up {
+  margin-left: 15px;
+  width: 40px;
+  height: 40px;
+  background-color: #fee500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.keyboard__sending-space--icons .fa-smile {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.keyboard-typing {
+  background-color: #d1d4d9;
+  height: 288px;
+}
+
+.keyboard-typing__btn {
+  background-color: white;
+  font-size: 10px;
+  color: balck;
+}

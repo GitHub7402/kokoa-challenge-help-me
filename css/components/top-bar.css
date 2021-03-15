@@ -1,0 +1,49 @@
+.top-bar {
+  margin: 25px 0;
+  margin-top: 50px;
+  padding: 25px 20px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: -30px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 50;
+}
+
+.top-bar__column {
+  width: 33%;
+}
+
+.top-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.top-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-bar__column .fa-chevron-left,
+.top-bar__column .fa-search,
+.top-bar__column .fa-bars {
+  font-size: 25px;
+}
+
+.top-bar__column h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.top-bar__column .fa-bars {
+  margin-left: 25px;
+}
+
+#chatting-background-color .top-bar {
+  background-color: #abc1d1;
+}
+
+.setting .top-bar {
+  background-color: white;
+}
