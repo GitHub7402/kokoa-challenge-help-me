@@ -1,0 +1,42 @@
+.media-query {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.media-query p {
+    color:white;
+}
+
+@media screen and (max-width: 600px) {
+    .media-query {
+        display: none;
+    }
+}
+
+.media-query__stretch {
+    background-color: whitesmoke;
+    color: black;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+@media screen and (min-width: 520px) {
+    .media-query__stretch {
+        display: none;
+    }
+}

@@ -1,0 +1,29 @@
+@keyframes turning-face {
+    0% {
+        transform: rotateZ(0deg) scale(1);
+    }
+    50% {
+        transform: rotateZ(180deg) scale(2);
+    }
+    100% {
+        transform: rotateZ(360deg) scale(1);
+    }
+}
+
+@keyframes crazy-state {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.keyboard__sending-space--icons .fa-smile {
+    animation: 1s turning-face linear infinite;
+}
+
+.crazy-state i,
+.crazy-state img {
+    animation: 1s crazy-state linear infinite;
+}
